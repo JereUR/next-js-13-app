@@ -6,7 +6,14 @@ const links = [
     label: 'Home',
     route: '/'
   },
-  { label: 'About', route: '/about' }
+  {
+    label: 'About',
+    route: '/about'
+  },
+  {
+    label: 'Posts',
+    route: '/posts'
+  }
 ]
 
 export default function Navigation() {
