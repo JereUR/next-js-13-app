@@ -3,7 +3,7 @@ import { Space_Grotesk } from '@next/font/google'
 import Navigation from './components/Navigation'
 
 const font = Space_Grotesk({
-  subsets: ['latin', 'latin-ext', 'vietnamese'],
+  subsets: ['latin'],
   weight: ['400', '700']
 })
 
