@@ -4,7 +4,8 @@ import Navigation from './components/Navigation'
 
 const font = Space_Grotesk({
   subsets: ['latin'],
-  weight: ['400', '700']
+  weight: ['400', '700'],
+  variable: '--font-grotesk'
 })
 
 export default function RootLayout({ children }) {
@@ -13,7 +14,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>App with Next 13</title>
       </head>
-      <body className={font.className}>
+      <body className={font.variable}>
         <Navigation />
         {children}
       </body>
